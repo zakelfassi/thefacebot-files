@@ -1,0 +1,4 @@
+step 2
+Replace <YOUR PSID> with the PSID sent to you from Facebot.
+
+curl -X POST -H "Content-Type: application/json" -d '{"recipient":{"id":"<YOUR PSID>"}, "message":{"attachment":{"type":"image","payload":{"url":"http://thecatapi.com/api/images/get?format=src&type=gif"}}}}' "https://graph.facebook.com/v2.6/me/messages?access_token=EAAMs03NJ13wBAFJTOA0ItNR6GaP7DBkNZBJBxa2sl8gSh8faZCMzxZCWLZCgMUSf74NdKI7kVgSAHp4ZBO7vmyaME2B9Ha3K5LcwxzyLGnZBOPzZCjS20TizeGmBBiy01XbaZCIV2rUTX8wZBX0ynRKDFjNamhZAYOuqF4Gwde0NEzpgZDZD"

@@ -1,0 +1,22 @@
+step1
+Replace <YOUR PSID> with the PSID sent in step 1 of the tutorial.
+
+curl -X POST -H "Content-Type: application/json" -d '{"recipient":{"id":"<YOUR PSID>"}, "message":{"text":"Hello World!"}}' "https://graph.facebook.com/v2.6/me/messages?access_token=EAAMs03NJ13wBAFJTOA0ItNR6GaP7DBkNZBJBxa2sl8gSh8faZCMzxZCWLZCgMUSf74NdKI7kVgSAHp4ZBO7vmyaME2B9Ha3K5LcwxzyLGnZBOPzZCjS20TizeGmBBiy01XbaZCIV2rUTX8wZBX0ynRKDFjNamhZAYOuqF4Gwde0NEzpgZDZD"
+
+
+
+
+
+
+
+*** JSON PAYLOAD - Un-minified ***
+
+
+{
+	"recipient": {
+		"id": "<YOUR PSID>"
+	},
+	"message": {
+		"text": "Hello World!"
+	}
+}
